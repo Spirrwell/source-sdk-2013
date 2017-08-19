@@ -22,6 +22,12 @@ $Configuration
 
 $Project "Server (HL2MP)"
 {
+	$Folder "FMOD"
+	{
+		$File "fmod\sound_fmod.cpp"
+		$File "fmod\sound_fmod.h"
+	}
+	
 	$Folder	"Source Files"
 	{
 		$File	"ai_relationship.cpp"
